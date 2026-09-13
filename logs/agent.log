@@ -1,0 +1,5 @@
+2026-09-05 06:21:00 INFO  main    this log line should read in Colombo time, not Shanghai
+2026-09-05 06:21:14 INFO  main    [1mstartup scan (last one never)[0m
+2026-09-05 06:21:14 INFO  main    last scan was 0 min ago (< 60) — skipping the startup scan, next one at 09:30
+2026-09-05 06:21:14 INFO  main    [1mstartup scan (last one 180 min ago)[0m
+2026-09-05 06:21:14 INFO  main    [33mstartup outside 05:00-21:00 Asia/Colombo — waiting for the window[0m

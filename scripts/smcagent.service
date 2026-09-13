@@ -1,0 +1,16 @@
+[Unit]
+Description=SMC/ICT DeepSeek Signal Agent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/smc_agent
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/root/smc_agent/venv/bin/python /root/smc_agent/main.py
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
